@@ -76,3 +76,17 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+/* Product Section start */
+.product__box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1.7rem;
+  border-radius: 0.6rem;
+  border: 1px solid #cacaca42;
+  transition: ease-in-out all 0.3s;
+}
+/* Product Section End */
